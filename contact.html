@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yatye</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d6577c2bd2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <div class="contact-page">
+
+    <h1>YATYE GALLERY</h1>
+
+    <div id="form-container">
+      <h2>CONTACT</h2>
+      <form id="contact-form" action="">
+        <input type="text" name="email" id="email" placeholder="Your email">
+        <div id="err-mail"></div>
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+        <div id="err-subject"></div>
+        <textarea name="message" id="message" placeholder="Write your message"></textarea>
+        <div id="err-message"></div>
+        <button type="submit">Submit</button>
+        <div id="send-success"></div>
+      </form>
+    </div>
+
+    <div class="back-icon">
+      <a href="index.html"><i class="fa-solid fa-arrow-left-long"></i></a>
+      
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("d6lG83HEWBCp9FmsK");
+    })();
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
