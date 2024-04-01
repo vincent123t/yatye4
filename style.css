@@ -136,7 +136,7 @@ footer {
   background: linear-gradient(0deg,  #d49d5e 0%,#faf3eb 100%);
   /*box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.23) 0px 6px 6px;*/
   box-shadow: 0px 5px 14px 5px rgba(255,255,255,0.3);
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 /*@keyframes btn {
